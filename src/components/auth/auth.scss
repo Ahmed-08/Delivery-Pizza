@@ -1,0 +1,32 @@
+.auth-block{
+
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px grey;
+    padding: 25px;
+    .auth-block__input-name, .auth-block__input-password{
+        display: flex;
+        flex-direction: column;
+
+        input {
+            height: 25px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        label{
+            font-size: 18px;
+        }
+    }
+
+    button{
+        width: 90px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #0D6EFD;
+        color: white;
+        cursor: pointer;
+    }
+}
